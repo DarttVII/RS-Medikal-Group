@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* ---Информация о компании--- */
+
+.wrapper{
+}
+
+.rs-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 25%;
+}
+
+.rs-address{
+}
+
+.header-email{
+  background-repeat: no-repeat;
+  background-image: url("img/icon-email-header.svg");
+  padding-left: 25px;
+  text-decoration: none;
+  color: #3692c7;
+}
+
+/* ---Навигация Блоки Header NAV---*/
+
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*длямобустроййств*/
+  min-width: 1266px;
+}
+
+nav{
+
+}
+
+nav ul {
+  list-style: none;
+  background-color: #67b7e6;
+}
+
+nav > ul > li {
+  float: left;
+}
+
+nav ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: white;
+  width: 163px;
+}
+
+nav ul li a:hover {
+  background-color: #2877ef;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+/* ---Конец шапки NAV Header с выезжающим меню--- */
