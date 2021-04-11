@@ -44,6 +44,10 @@ body{
 }
 
 .header-tel a{
+	background-repeat: no-repeat;
+  background-image: url("img/icon-phone-header.svg");
+	background-size: contain;
+  padding-left: 25px;
   text-decoration: none;
   color: #3692c7;
 }
@@ -274,4 +278,23 @@ font-weight: 900;
 font-size: 25px;
 padding: 45px;
 text-align: center;
+}
+
+.main-features{
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin: 35px;
+}
+
+
+/* ----FOOTER--- */
+
+.footer-wrap{
+	height: 200px;
+	background-color: #DDFDF5;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
